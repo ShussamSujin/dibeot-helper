@@ -45,7 +45,6 @@
     const msg = kind === 'quota'
       ? '<b class="st-t">저장 공간이 가득 차 더 저장하지 못했습니다</b>' +
         '<span class="st-b">지금 입력한 내용이 <b>저장되지 않았습니다.</b> ' +
-        '<a href="#/setup">학교 정보</a>에서 <b>전체 백업 내려받기</b>로 백업한 뒤, ' +
         '브라우저에서 다른 사이트의 저장 데이터를 정리해 주세요.</span>'
       : '<b class="st-t">입력한 내용이 저장되지 않고 있습니다</b>' +
         '<span class="st-b">브라우저가 이 사이트의 저장을 막고 있습니다 — ' +
@@ -2238,7 +2237,7 @@
            '<textarea data-f="rooms" rows="6" spellcheck="false"></textarea></label>' +
            '<div class="note info" style="margin-bottom:var(--s4)"><span class="n-em">🔗</span><div class="n-wrap">' +
            '<b class="n-t">「학교 정보」와 같은 값을 씁니다</b><div class="n-b">' +
-           '여기에 적은 목록은 <a href="#/setup"><b>학교 기본 정보</b></a>의 와이파이 항목과 ' +
+           '여기에 적은 목록은 <b>학교 기본 정보</b>의 와이파이 항목과 ' +
            '<b>자동으로 함께 저장</b>됩니다. 한쪽에서 고치면 다른 쪽도 바뀝니다.' +
            '</div></div></div></div>';
 
@@ -2301,7 +2300,7 @@
       h += '<div class="card-grid">' + first.map(cardHTML).join('') + '</div>';
     }
 
-    h += '<div class="sec-head"><h2>업무별 안내</h2><span>1번부터 ' + jobs.length + '번까지 순서대로 진행하면 됩니다</span></div>';
+    h += '<div class="sec-head"><h2>업무별 안내</h2><span>선생님들의 디벗 관련 업무를 도와드립니다</span></div>';
     h += '<div class="card-grid">' + jobs.map(cardHTML).join('') + '</div>';
 
 
@@ -4966,7 +4965,7 @@ body,
       mbox.innerHTML = miss.length
         ? '<div class="note warn"><span class="n-em">✍️</span><div class="n-wrap">' +
           '<b class="n-t">아직 비어 있는 항목 ' + miss.length + '개</b><div class="n-b">' +
-          esc(miss.join(' · ')) + ' — <a href="#/setup"><b>학교 기본 정보</b></a>에서 채우면 자료에 함께 들어갑니다. ' +
+          esc(miss.join(' · ')) + ' — <b>학교 기본 정보</b>에서 채우면 자료에 함께 들어갑니다. ' +
           '비워 두면 해당 부분은 자료에서 빠집니다.</div></div></div>'
         : '<div class="note tip"><span class="n-em">✅</span><div class="n-wrap">' +
           '<b class="n-t">필요한 항목이 모두 채워졌습니다</b>' +
@@ -4986,14 +4985,13 @@ body,
           '<span>A4 세로 · 한 장 요약 안내문 · 항목 ' + groups.length + '개</span></div>' +
         '<div class="rg-actions">' +
           '<button type="button" class="rg-btn" id="eduCopy">📋 프롬프트 복사</button>' +
-          '<a class="rg-btn ghost" href="#/setup">⚙️ 학교 정보 수정</a>' +
-        '</div>' +
+                  '</div>' +
         '<textarea class="rg-prompt" id="eduPromptBox" rows="20" readonly spellcheck="false"></textarea>' +
         '<div class="note tip"><span class="n-em">🔤</span><div class="n-wrap">' +
           '<b class="n-t">생성 후 반드시 글자를 확인하세요</b><div class="n-b">' +
           'AI 이미지 도구는 <b>한글을 자주 틀리게 씁니다.</b> 프롬프트에 우리 학교 내용을 그대로 넣어 두었으니, ' +
           '나온 이미지의 <b>글자를 하나씩 대조</b>하세요. 오탈자가 반복되면 ' +
-          '<a href="#/setup">학교 기본 정보</a>에서 항목을 줄이거나 <b>인쇄물로 만들기</b>를 쓰세요. ' +
+          '학교 기본 정보에서 항목을 줄이거나 <b>인쇄물로 만들기</b>를 쓰세요. ' +
           '<b>가정통신문처럼 글자가 정확해야 하는 문서는 인쇄물 쪽이 안전합니다.</b>' +
           '</div></div></div>' +
         '<div class="note info"><span class="n-em">🎬</span><div class="n-wrap">' +
@@ -5019,8 +5017,7 @@ body,
         '<button type="button" class="rg-btn word" id="eduDocx">📝 워드(.docx) 내려받기</button>' +
         '<button type="button" class="rg-btn hwp" id="eduHwpx">🅷 한글(.hwpx) 내려받기</button>' +
         '<button type="button" class="rg-btn ghost" id="eduDl">⬇️ HTML 파일로 내려받기</button>' +
-        '<a class="rg-btn ghost" href="#/setup">⚙️ 학교 정보 수정</a>' +
-      '</div>' +
+              '</div>' +
       '<div class="note info"><span class="n-em">💾</span><div class="n-wrap">' +
         '<b class="n-t">어떤 형식으로 받을까요</b><div class="n-b">' +
         '<b>PDF</b>는 인쇄 창에서 대상을 “PDF로 저장”으로 바꿔 저장하면 화면 그대로 나옵니다. ' +
