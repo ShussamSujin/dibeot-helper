@@ -1897,42 +1897,6 @@ const PAGES = [
    },
    {
     "t": "links",
-    "title": "서울시교육청 업무 지원",
-    "items": [
-     {
-      "em": "🔐",
-      "name": "EVPN (원격업무지원)",
-      "url": "https://evpn.sen.go.kr",
-      "desc": "학교 밖에서 교내망 업무 시스템에 접속할 때 먼저 연결"
-     },
-     {
-      "em": "🗂️",
-      "name": "업무포털",
-      "url": "https://sen.eduptl.kr",
-      "desc": "공문 수·발신, 결재, 업무 메뉴 전반"
-     },
-     {
-      "em": "🎓",
-      "name": "나이스 (NEIS)",
-      "url": "https://sen.neis.go.kr",
-      "desc": "학적·성적·학생 정보"
-     },
-     {
-      "em": "💰",
-      "name": "K-에듀파인",
-      "url": "https://klef.sen.go.kr",
-      "desc": "예산·품의·지출, 물품 관리"
-     },
-     {
-      "em": "✉️",
-      "name": "센메일 (SEN메일)",
-      "url": "https://mail.sen.go.kr",
-      "desc": "교육청 업무용 메일"
-     }
-    ]
-   },
-   {
-    "t": "links",
     "title": "학교 관리자 사이트",
     "items": [
      {
