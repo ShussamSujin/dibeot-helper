@@ -1904,7 +1904,7 @@
       h += '<div class="rg-row"><span class="rg-lb">출력 방식</span><div class="rg-seg" data-seg="tool">' +
            '<button type="button" data-v="pdf"><b>📄 PDF</b><small>규칙만 넣으면 바로 완성</small></button>' +
            '<button type="button" data-v="chatgpt"><b>🤖 ChatGPT 이미지</b><small>프롬프트 복사해서 사용</small></button>' +
-           '<button type="button" data-v="flow"><b>🎬 Google Flow 이미지</b><small>프롬프트 복사해서 사용</small></button>' +
+           '<button type="button" data-v="flow"><b>✨ Gemini 이미지</b><small>프롬프트 복사해서 사용</small></button>' +
            '</div></div>';
       h += '<div class="rg-row"><span class="rg-lb">용지 방향</span><div class="rg-seg sm" data-seg="orient">' +
            '<button type="button" data-v="portrait"><b>A4 세로형</b></button>' +
@@ -2047,7 +2047,7 @@
            '<div class="rg-seg" data-seg="out">' +
            '<button type="button" data-v="doc"><b>📄 인쇄물로 만들기</b><small>PDF · 워드 · HTML</small></button>' +
            '<button type="button" data-v="gpt"><b>🤖 ChatGPT 이미지</b><small>프롬프트 복사해서 사용</small></button>' +
-           '<button type="button" data-v="flow"><b>🎬 Google Flow 이미지</b><small>프롬프트 복사해서 사용</small></button>' +
+           '<button type="button" data-v="flow"><b>✨ Gemini 이미지</b><small>프롬프트 복사해서 사용</small></button>' +
            '</div></div>';
       h += '</div>';
       h += '<div id="eduMissing"></div>';
@@ -2109,7 +2109,7 @@
            '<div class="rg-seg" data-seg="out">' +
            '<button type="button" data-v="doc"><b>동의서 초안</b><small>PDF · 워드 · HTML</small></button>' +
            '<button type="button" data-v="gpt"><b>ChatGPT 이미지</b><small>안내문 표지 그림</small></button>' +
-           '<button type="button" data-v="flow"><b>Google Flow 이미지</b><small>안내문 표지 그림</small></button>' +
+           '<button type="button" data-v="flow"><b>Gemini 이미지</b><small>안내문 표지 그림</small></button>' +
            '</div></div></div>';
 
       h += '<div class="rg-grid">';
@@ -2146,7 +2146,7 @@
            '<div class="rg-seg" data-seg="out">' +
            '<button type="button" data-v="doc"><b>📄 인쇄물로 만들기</b><small>PDF · 워드 · HTML</small></button>' +
            '<button type="button" data-v="gpt"><b>🤖 ChatGPT 이미지</b><small>프롬프트 복사해서 사용</small></button>' +
-           '<button type="button" data-v="flow"><b>🎬 Google Flow 이미지</b><small>프롬프트 복사해서 사용</small></button>' +
+           '<button type="button" data-v="flow"><b>✨ Gemini 이미지</b><small>프롬프트 복사해서 사용</small></button>' +
            '</div></div>' +
            /* 이미지로 만들 때만 나타난다 */
            '<div class="rg-row" id="cbShotRow" hidden><span class="rg-lb">무엇을 그릴까요</span>' +
@@ -2723,7 +2723,7 @@ charKO
       ].join('\n');
     }
 
-    // Google Flow (Imagen 계열)
+    // Gemini (Imagen 계열)
     return [
 'A clean high-resolution Korean school notice poster, ' + mo.en + ', print quality, ' +
   (land ? 'landscape 4:3 aspect ratio' : 'portrait 3:4 aspect ratio') + '.',
@@ -2805,7 +2805,7 @@ numbered,
     }
 
     const p = rgPrompt(st);
-    const toolName = st.tool === 'chatgpt' ? 'ChatGPT 이미지' : 'Google Flow 이미지';
+    const toolName = st.tool === 'chatgpt' ? 'ChatGPT 이미지' : 'Gemini 이미지';
     out.innerHTML =
       '<div class="rg-outhead"><b>' + toolName + '용 프롬프트</b><span>A4 ' +
         (st.orient === 'landscape' ? '가로형' : '세로형') + ' · 규칙 ' + n + '개</span></div>' +
@@ -4026,7 +4026,7 @@ th{width:36mm;background:#EDF3F9;font-weight:700;line-height:1.45}
     const p = csPrompt(st);
     CS.prompt = p;
     out.innerHTML =
-      '<div class="rg-outhead"><b>' + (st.out === 'gpt' ? 'ChatGPT' : 'Google Flow') + '용 프롬프트</b>' +
+      '<div class="rg-outhead"><b>' + (st.out === 'gpt' ? 'ChatGPT' : 'Gemini') + '용 프롬프트</b>' +
         '<span>안내문 상단에 넣을 삽화</span></div>' +
       '<div class="rg-actions"><button type="button" class="rg-btn" id="csCopy">📋 프롬프트 복사</button></div>' +
       '<textarea class="rg-prompt" id="csPromptBox" rows="20" readonly spellcheck="false"></textarea>' +
@@ -4402,7 +4402,7 @@ ruleTxt,
     const p = howto ? cbHowtoPrompt(st) : cbPrompt(st);
     CB.prompt = p;
     out.innerHTML =
-      '<div class="rg-outhead"><b>' + (st.out === 'gpt' ? 'ChatGPT' : 'Google Flow') + '용 프롬프트</b>' +
+      '<div class="rg-outhead"><b>' + (st.out === 'gpt' ? 'ChatGPT' : 'Gemini') + '용 프롬프트</b>' +
         '<span>' + (howto ? 'A4 세로 · 보관 방법 설명 그림 (3단 구성)' : 'A4 세로 · 사용 안내문 포스터') + '</span></div>' +
       '<div class="rg-actions">' +
         '<button type="button" class="rg-btn" id="cbCopy">📋 프롬프트 복사</button>' +
@@ -4428,12 +4428,12 @@ ruleTxt,
             '게시물은 글자가 정확해야 하므로, <b>확신이 서지 않으면 인쇄물 쪽이 안전합니다.</b>' +
             '</div></div></div>') +
       '<div class="note info"><span class="n-em">' + (st.out === 'gpt' ? '🤖' : '🎬') + '</span><div class="n-wrap">' +
-        '<b class="n-t">' + (st.out === 'gpt' ? 'ChatGPT에서 쓰는 법' : 'Google Flow에서 쓰는 법') + '</b><div class="n-b">' +
+        '<b class="n-t">' + (st.out === 'gpt' ? 'ChatGPT에서 쓰는 법' : 'Gemini에서 쓰는 법') + '</b><div class="n-b">' +
         (st.out === 'gpt'
-          ? '<b>ChatGPT</b>(또는 Gemini) 대화창에 붙여넣고 이미지를 만들어 달라고 하세요. ' +
+          ? '<b>ChatGPT</b> 대화창에 붙여넣고 이미지를 만들어 달라고 하세요. ' +
             '마음에 들지 않으면 <b>“2단을 더 크게”</b>처럼 이어서 고쳐 달라고 하면 됩니다.'
-          : '<b>Google Flow</b>의 이미지 생성 칸에 붙여넣으세요. 마지막 <b>NEGATIVE PROMPT</b> 줄은 ' +
-            '부정 프롬프트 칸이 따로 있으면 그쪽에 옮겨 넣는 편이 결과가 좋습니다.') +
+          : '<b>Gemini</b> 대화창에 붙여넣고 이미지를 만들어 달라고 하세요. 마지막 <b>NEGATIVE PROMPT</b> 줄은 ' +
+            '“다음 요소는 넣지 마세요”라는 뜻이니 그대로 함께 붙여 넣으면 됩니다.') +
         '</div></div></div>';
     $('#cbPromptBox').value = p;
   }
@@ -4975,13 +4975,13 @@ body,
     ED.kind = kind;
     ED.mode = mode;
 
-    /* ChatGPT · Google Flow 이미지 프롬프트 */
+    /* ChatGPT · Gemini 이미지 프롬프트 */
     if (mode === 'gpt' || mode === 'flow') {
       const pr = eduPrompt(mode, p);
       ED.prompt = pr;
       const groups = eduOneGroups(p);
       out.innerHTML =
-        '<div class="rg-outhead"><b>' + (mode === 'gpt' ? 'ChatGPT' : 'Google Flow') + '용 프롬프트</b>' +
+        '<div class="rg-outhead"><b>' + (mode === 'gpt' ? 'ChatGPT' : 'Gemini') + '용 프롬프트</b>' +
           '<span>A4 세로 · 한 장 요약 안내문 · 항목 ' + groups.length + '개</span></div>' +
         '<div class="rg-actions">' +
           '<button type="button" class="rg-btn" id="eduCopy">📋 프롬프트 복사</button>' +
@@ -4995,12 +4995,12 @@ body,
           '<b>가정통신문처럼 글자가 정확해야 하는 문서는 인쇄물 쪽이 안전합니다.</b>' +
           '</div></div></div>' +
         '<div class="note info"><span class="n-em">🎬</span><div class="n-wrap">' +
-          '<b class="n-t">' + (mode === 'gpt' ? 'ChatGPT에서 쓰는 법' : 'Google Flow에서 쓰는 법') + '</b><div class="n-b">' +
+          '<b class="n-t">' + (mode === 'gpt' ? 'ChatGPT에서 쓰는 법' : 'Gemini에서 쓰는 법') + '</b><div class="n-b">' +
           (mode === 'gpt'
-            ? '<b>ChatGPT</b>(또는 Gemini) 대화창에 붙여넣고 이미지를 만들어 달라고 하면 됩니다. ' +
+            ? '<b>ChatGPT</b> 대화창에 붙여넣고 이미지를 만들어 달라고 하면 됩니다. ' +
               '결과가 마음에 들지 않으면 <b>“카드를 2단이 아니라 3단으로”</b>처럼 이어서 고쳐 달라고 하세요.'
-            : '<b>Google Flow</b>의 이미지 생성 칸에 붙여넣으세요. 마지막 <b>NEGATIVE PROMPT</b> 줄은 ' +
-              '부정 프롬프트 칸이 따로 있으면 그쪽에 옮겨 넣는 편이 결과가 좋습니다.') +
+            : '<b>Gemini</b> 대화창에 붙여넣고 이미지를 만들어 달라고 하세요. 마지막 <b>NEGATIVE PROMPT</b> 줄은 ' +
+              '“다음 요소는 넣지 마세요”라는 뜻이니 그대로 함께 붙여 넣으면 됩니다.') +
           '</div></div></div>';
       $('#eduPromptBox').value = pr;
       return;
