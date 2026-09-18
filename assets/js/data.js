@@ -617,7 +617,7 @@ const PAGES = [
     "title": "22년도 보급 충전함 (SIG SyncPro)",
     "items": [
      {
-      "src": "assets/img/charging-2022-sig.webp",
+      "src": "assets/img/charging-2022-sig.jpg",
       "cap": "22년도 보급 충전함 — SIG SyncPro Super Charge · 번호 키패드 잠금 · 앞문에 학급 번호(예: 2-7) 표시"
      }
     ]
@@ -638,7 +638,7 @@ const PAGES = [
     "title": "23년도 보급 충전함 (24년 6월 이후 보급 · QPEED)",
     "items": [
      {
-      "src": "assets/img/charging-2023-qpeed.webp",
+      "src": "assets/img/charging-2023-qpeed.jpg",
       "cap": "23년도 보급 충전함 — QPEED · 터치 키패드 잠금 · 앞문에 학급 번호(예: 1-8) 표시 · 문에 「충전함 가이드」 QR 스티커"
      }
     ]
@@ -880,20 +880,6 @@ const PAGES = [
       "em": "🌡️",
       "title": "이런 신호가 보이면 즉시 사용 중지",
       "body": "충전 중 <b>기기가 부풀어 오름</b>, <b>타는 냄새</b>, <b>비정상적인 발열</b>, <b>충전함 콘센트 변색</b> — 하나라도 발견되면 즉시 전원을 차단하고 해당 기기를 분리해 A/S를 접수하세요."
-     }
-    ]
-   },
-   {
-    "t": "gallery",
-    "title": "설치 예시",
-    "items": [
-     {
-      "src": "assets/img/charging-cabinet-1.jpg",
-      "cap": "번호 스티커 부착"
-     },
-     {
-      "src": "assets/img/charging-cabinet-2.jpg",
-      "cap": "케이블 정리 · 통풍 확보"
      }
     ]
    },
