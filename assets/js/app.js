@@ -1689,10 +1689,10 @@
     },
 
     gallery(b) {
-      let h = '<section class="block"><h2>' + (b.title || '이미지') + '</h2><div class="gal">';
+      let h = '<section class="block"><h2>' + (b.title || '이미지') + '</h2><div class="gal' + (b.wide ? ' wide' : '') + '">';
       (b.items || []).forEach(g => {
         h += '<figure>' +
-             '<img src="' + g.src + '" alt="' + (g.cap || '') + '" loading="lazy" data-img="' + g.src + '">' +
+             '<a href="' + g.src + '" target="_blank" rel="noopener" title="크게 보기"><img src="' + g.src + '" alt="' + (g.cap || '') + '" loading="lazy" data-img="' + g.src + '"></a>' +
              (g.cap ? '<figcaption>' + g.cap + '</figcaption>' : '') +
              '</figure>';
       });
