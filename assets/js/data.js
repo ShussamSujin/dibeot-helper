@@ -1449,11 +1449,11 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/flow.jpg",
-      "cap": "양품화 진행 과정 6단계 (가이드 4쪽)"
+      "cap": "양품화 진행 과정 6단계"
      },
      {
       "src": "assets/img/refurb27/scope.jpg",
-      "cap": "수거 대상 · 미대상 · 신규 지급 품목 (가이드 5쪽)"
+      "cap": "수거 대상 · 미대상 · 신규 지급 품목"
      }
     ]
    },
@@ -1546,7 +1546,7 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/models.jpg",
-      "cap": "24년 상반기 · 하반기 보급 단말 제품명과 뒷면 각인 (가이드 6쪽)"
+      "cap": "24년 상반기 · 하반기 보급 단말 제품명과 뒷면 각인"
      }
     ]
    },
@@ -1615,7 +1615,7 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/return-checklist.jpg",
-      "cap": "디벗 반납 점검표(OS별) 예시 — 학년·반·이름, 학생 서명, 확인자 서명 (실무 가이드 3쪽)"
+      "cap": "디벗 반납 점검표(OS별) 예시 — 학년·반·이름, 학생 서명, 확인자 서명"
      }
     ]
    },
@@ -1692,15 +1692,15 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/as-channel.jpg",
-      "cap": "24년 상반기 · 하반기 보급 단말 A/S 접수 방법과 무인보관함 라벨 (가이드 10쪽)"
+      "cap": "24년 상반기 · 하반기 보급 단말 A/S 접수 방법과 무인보관함 라벨"
      },
      {
       "src": "assets/img/refurb27/repair-need.jpg",
-      "cap": "수리가 필요한 사례 — 화면 깨짐, 줄·번인, 전원·부팅, 버튼, 카메라, 힌지·케이스 파손 (가이드 11쪽)"
+      "cap": "수리가 필요한 사례 — 화면 깨짐, 줄·번인, 전원·부팅, 버튼, 카메라, 힌지·케이스 파손"
      },
      {
       "src": "assets/img/refurb27/repair-noneed.jpg",
-      "cap": "수리가 필요하지 않은 사례 — 찍힘, 스크래치, 스티커 흔적, 오염 (가이드 12쪽)"
+      "cap": "수리가 필요하지 않은 사례 — 찍힘, 스크래치, 스티커 흔적, 오염"
      }
     ]
    },
@@ -1733,7 +1733,7 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/charge.jpg",
-      "cap": "모든 기기는 충전보관함에 충전해 둡니다 (가이드 13쪽)"
+      "cap": "모든 기기는 충전보관함에 충전해 둡니다"
      }
     ]
    },
@@ -1797,7 +1797,7 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/os-summary.jpg",
-      "cap": "OS별 수합 전 · 점검 · 수합 완료 후 할 일 (가이드 14쪽)"
+      "cap": "OS별 수합 전 · 점검 · 수합 완료 후 할 일"
      }
     ]
    },
@@ -1812,23 +1812,23 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/and-lock-google.jpg",
-      "cap": "화면 잠금 ‘설정 안 함’ · 구글 계정 삭제 (가이드 16쪽)"
+      "cap": "화면 잠금 ‘설정 안 함’ · 구글 계정 삭제"
      },
      {
       "src": "assets/img/refurb27/and-samsung.jpg",
-      "cap": "삼성 계정 로그아웃 ①~⑥ (가이드 17쪽)"
+      "cap": "삼성 계정 로그아웃 ①~⑥"
      },
      {
       "src": "assets/img/refurb27/and-policy.jpg",
-      "cap": "관리시스템에서 적용 정책 찾기 — AMA·Android 정책 모두 확인 (가이드 18쪽)"
+      "cap": "관리시스템에서 적용 정책 찾기 — AMA·Android 정책 모두 확인"
      },
      {
       "src": "assets/img/refurb27/and-factory.jpg",
-      "cap": "공장 초기화 차단 해제 (AMA · Android) (가이드 19쪽)"
+      "cap": "공장 초기화 차단 해제 (AMA · Android)"
      },
      {
       "src": "assets/img/refurb27/and-usb.jpg",
-      "cap": "USB 차단 해제 (AMA · Android) (가이드 20쪽)"
+      "cap": "USB 차단 해제 (AMA · Android)"
      }
     ]
    },
@@ -1843,19 +1843,19 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/ipad-account.jpg",
-      "cap": "계정 로그아웃 차단 허용 — 수합 전에 먼저 (가이드 22쪽)"
+      "cap": "계정 로그아웃 차단 허용 — 수합 전에 먼저"
      },
      {
       "src": "assets/img/refurb27/ipad-lock-asm.jpg",
-      "cap": "화면 잠금 해제와 ASM 계정 로그아웃 (가이드 23쪽)"
+      "cap": "화면 잠금 해제와 ASM 계정 로그아웃"
      },
      {
       "src": "assets/img/refurb27/ipad-factory.jpg",
-      "cap": "공장 초기화 차단 해제 (가이드 24쪽)"
+      "cap": "공장 초기화 차단 해제"
      },
      {
       "src": "assets/img/refurb27/ipad-usb.jpg",
-      "cap": "USB 연결 제한 및 외부 PC 페어링 해제 (가이드 25쪽)"
+      "cap": "USB 연결 제한 및 외부 PC 페어링 해제"
      }
     ]
    },
@@ -1870,27 +1870,27 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/win-usb.jpg",
-      "cap": "윈도우 — USB 연결 제한 해제 (가이드 27쪽)"
+      "cap": "윈도우 — USB 연결 제한 해제"
      },
      {
       "src": "assets/img/refurb27/cb-powerwash.jpg",
-      "cap": "크롬북 — 파워워시 차단 해제 (가이드 29쪽)"
+      "cap": "크롬북 — 파워워시 차단 해제"
      },
      {
       "src": "assets/img/refurb27/cb-guest.jpg",
-      "cap": "크롬북 — 게스트 모드 허용 (가이드 30쪽)"
+      "cap": "크롬북 — 게스트 모드 허용"
      },
      {
       "src": "assets/img/refurb27/wb-logout.jpg",
-      "cap": "웨일북 — 웨일 스페이스 계정 로그아웃 (가이드 32쪽)"
+      "cap": "웨일북 — 웨일 스페이스 계정 로그아웃"
      },
      {
       "src": "assets/img/refurb27/wb-admin.jpg",
-      "cap": "웨일북 — 관리 화면 들어가기 (가이드 33쪽)"
+      "cap": "웨일북 — 관리 화면 들어가기"
      },
      {
       "src": "assets/img/refurb27/wb-exclude.jpg",
-      "cap": "웨일북 — 관리 기기에서 제외 (가이드 34쪽)"
+      "cap": "웨일북 — 관리 기기에서 제외"
      }
     ]
    },
@@ -2078,15 +2078,15 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/onsite-steps.jpg",
-      "cap": "현장 점검 순서 STEP 01~05 (가이드 38쪽)"
+      "cap": "현장 점검 순서 STEP 01~05"
      },
      {
       "src": "assets/img/refurb27/onsite-judge.jpg",
-      "cap": "수거 판정 기준 (가이드 39쪽)"
+      "cap": "수거 판정 기준"
      },
      {
       "src": "assets/img/refurb27/pickup-form.jpg",
-      "cap": "현장 디벗 수거 확인서 양식 (가이드 40쪽)"
+      "cap": "현장 디벗 수거 확인서 양식"
      }
     ]
    },
@@ -2152,7 +2152,7 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/process.jpg",
-      "cap": "클리닝 · 라벨/QR 부착 · 부속품 교체 · S/W 재설치 (가이드 42쪽)"
+      "cap": "클리닝 · 라벨/QR 부착 · 부속품 교체 · S/W 재설치"
      }
     ]
    },
@@ -2291,7 +2291,7 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/components.jpg",
-      "cap": "학교 배부 구성품표 (가이드 47쪽)"
+      "cap": "학교 배부 구성품표"
      }
     ]
    },
@@ -2708,11 +2708,11 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/dbs-menu.jpg",
-      "cap": "메뉴 구성 (가이드 53쪽)"
+      "cap": "메뉴 구성"
      },
      {
       "src": "assets/img/refurb27/dbs-dashboard.jpg",
-      "cap": "[사업관리] 대시보드 — 수량 요약과 공정별 진척률 (가이드 65쪽)"
+      "cap": "[사업관리] 대시보드 — 수량 요약과 공정별 진척률"
      }
     ]
    },
@@ -2768,15 +2768,15 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/dbs-confirm.jpg",
-      "cap": "공지된 수거 일정 확인 · 확정 (가이드 55쪽)"
+      "cap": "공지된 수거 일정 확인 · 확정"
      },
      {
       "src": "assets/img/refurb27/dbs-change.jpg",
-      "cap": "일정 변경 신청 — 희망 날짜 · 시간 · 사유 (가이드 56쪽)"
+      "cap": "일정 변경 신청 — 희망 날짜 · 시간 · 사유"
      },
      {
       "src": "assets/img/refurb27/dbs-status.jpg",
-      "cap": "일정 카드 상태 읽는 법 (가이드 57쪽)"
+      "cap": "일정 카드 상태 읽는 법"
      }
     ]
    },
@@ -2791,13 +2791,13 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/dbs-sign.jpg",
-      "cap": "학교 확인 서명을 하면 확인서가 잠깁니다 (가이드 60쪽)"
+      "cap": "학교 확인 서명을 하면 확인서가 잠깁니다"
      }
     ]
    },
    {
     "t": "rich",
-    "html": "<h3>STEP 4. 학생 명렬표 등록</h3><ul><li><b>한 명씩</b> — [양품화 명렬표 등록]에서 학년 · 반 · 번호 · 이름 입력</li><li><b>엑셀로 한 번에</b> — [양품화 명렬표 일괄 등록] → 창 왼쪽 아래 <b>[양식 다운로드]</b> → 학년 · 반 · 번호 · 이름(필수)을 한 줄에 한 명씩 → <b>양식의 예시 2줄은 지우고</b> 작성 → .xlsx 파일을 끌어다 놓기 → [업로드]</li><li><b>선택 항목</b> — 구글 · 애플 · 웨일 학생 계정과 비밀번호, 학교 무선 네트워크(SSID)와 비밀번호, 비고. 해당하는 경우에만 입력하고 <b>관리자 계정도 입력</b>합니다.</li><li>잘못된 줄이 있으면 <b>실패 목록 엑셀</b>이 내려받아집니다. 고쳐서 다시 올리면 됩니다.</li><li>목록에서 학년 · 이름으로 검색하고 [엑셀 다운로드]로 받을 수 있습니다. 학교 계정으로는 <b>우리 학교 학생만</b> 보이고, 학생 계정·비밀번호는 가려져(마스킹) 표시됩니다 — 마스킹 해제 초기 비밀번호는 가이드 61쪽에 있으니 <b>처음 쓸 때 바꿔 두세요</b>.</li></ul><div class=\"callout\">27학년도 양품화 명렬표는 <b>2027년 디벗 양품화 사업 아래 [명렬표 관리]</b>에 등록합니다. 명렬표가 없으면 관리전환 수량을 확정할 수 없습니다.</div>"
+    "html": "<h3>STEP 4. 학생 명렬표 등록</h3><ul><li><b>한 명씩</b> — [양품화 명렬표 등록]에서 학년 · 반 · 번호 · 이름 입력</li><li><b>엑셀로 한 번에</b> — [양품화 명렬표 일괄 등록] → 창 왼쪽 아래 <b>[양식 다운로드]</b> → 학년 · 반 · 번호 · 이름(필수)을 한 줄에 한 명씩 → <b>양식의 예시 2줄은 지우고</b> 작성 → .xlsx 파일을 끌어다 놓기 → [업로드]</li><li><b>선택 항목</b> — 구글 · 애플 · 웨일 학생 계정과 비밀번호, 학교 무선 네트워크(SSID)와 비밀번호, 비고. 해당하는 경우에만 입력하고 <b>관리자 계정도 입력</b>합니다.</li><li>잘못된 줄이 있으면 <b>실패 목록 엑셀</b>이 내려받아집니다. 고쳐서 다시 올리면 됩니다.</li><li>목록에서 학년 · 이름으로 검색하고 [엑셀 다운로드]로 받을 수 있습니다. 학교 계정으로는 <b>우리 학교 학생만</b> 보이고, 학생 계정·비밀번호는 가려져(마스킹) 표시됩니다. 마스킹을 풀 때 쓰는 <b>초기 비밀번호는 처음 사용할 때 꼭 바꿔 두세요</b>.</li></ul><div class=\"callout\">27학년도 양품화 명렬표는 <b>2027년 디벗 양품화 사업 아래 [명렬표 관리]</b>에 등록합니다. 명렬표가 없으면 관리전환 수량을 확정할 수 없습니다.</div>"
    },
    {
     "t": "gallery",
@@ -2806,11 +2806,11 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/dbs-roster.jpg",
-      "cap": "명렬표 한 명씩 등록 · 목록 확인 (가이드 61쪽)"
+      "cap": "명렬표 한 명씩 등록 · 목록 확인"
      },
      {
       "src": "assets/img/refurb27/dbs-roster-xlsx.jpg",
-      "cap": "엑셀 양식으로 한 번에 등록 (가이드 62쪽)"
+      "cap": "엑셀 양식으로 한 번에 등록"
      }
     ]
    },
@@ -2825,7 +2825,7 @@ const PAGES = [
     "items": [
      {
       "src": "assets/img/refurb27/dbs-repair.jpg",
-      "cap": "[수리동의서] — 학교 현황 · 공개 QR/안내문 · 학생 제출 목록 (가이드 66쪽)"
+      "cap": "[수리동의서] — 학교 현황 · 공개 QR/안내문 · 학생 제출 목록"
      }
     ]
    },
